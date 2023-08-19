@@ -10,7 +10,6 @@ export default function Products() {
     useEffect(() => {
         setLoading(true);
         setProduct([]);
-        // setTimeout(() => {
             const loadProducts = async () => {
                 const link = "https://fakestoreapi.com/products";
                 await fetch(link)
@@ -24,7 +23,6 @@ export default function Products() {
                     })
             }
             loadProducts();
-        // }, 2000);
     }, [])
 
     const globalState = useContext(cartContext)

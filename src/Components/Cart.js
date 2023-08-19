@@ -17,10 +17,6 @@ export default function Cart() {
         return (total + item.price * item.quantity);
     }, 0)
 
-    const pay = () => {
-        window.alert("Purchase Successful!")
-    }
-
     return (
 
         <div className="h-100 rounded">

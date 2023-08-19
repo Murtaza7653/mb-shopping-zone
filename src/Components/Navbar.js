@@ -9,7 +9,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className="navbar navbar-dark navbar-expand-lg">
+        <nav className="navbar navbar-dark navbar-expand-lg sticky-top">
             <div className="container-fluid">
                 <img className=' mx-2' src={logo} alt="logo" />
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
