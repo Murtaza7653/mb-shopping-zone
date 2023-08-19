@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: absolute;
+  color: #120309;
+  min-height: 100%;
+  width: 100%;
+  padding-bottom: 5rem;
+  margin: 0;
+  background-image: url('./Components/images/background.jpg');
+  font-family: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

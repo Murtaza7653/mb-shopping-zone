@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #167d7f;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 5px #98d7c2;
+}
+
+.navbar ul {
+  width: 100%;
+  font-size: 20px;
+  display: inline;
+}
+
+.site-name {
+  float: left !important;
+}
+
+.navbar ul {
+  width: 90%;
+}
+
+.navbar ul li :last-child {
+  float: right;
+}
+
+.navbar ul img {
+  width: 40px;
+}
